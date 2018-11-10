@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "final",
-    "password": "final",
-    "database": "final",
-    "host": "127.0.0.1",
+    "username": "postgres",
+    "password": "ishaq123",
+    "database": "donor",
+    "host": "104.236.115.135",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": "final",
-    "database": "final",
-    "host": "127.0.0.1",
+    "username": "postgres",
+    "password": "ishaq123",
+    "database": "donor",
+    "host": "104.236.115.135",
     "dialect": "postgres"
   },
   "production": {
-    "username": "final",
-    "password": "final",
-    "database": "final",
-    "host": "127.0.0.1",
+    "username": "postgres",
+    "password": "ishaq123",
+    "database": "donor",
+    "host": "104.236.115.135",
     "dialect": "postgres"
   }
 }
