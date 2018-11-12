@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "ishaq123",
-    "database": "donor",
-    "host": "104.236.115.135",
+    "username": "djamware",
+    "password": "dj@mw@r3",
+    "database": "node_sequelize",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "ishaq123",
-    "database": "donor",
-    "host": "104.236.115.135",
+    "username": "djamware",
+    "password": "dj@mw@r3",
+    "database": "node_sequelize",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "ishaq123",
-    "database": "donor",
-    "host": "104.236.115.135",
+    "username": "djamware",
+    "password": "dj@mw@r3",
+    "database": "node_sequelize",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   }
 }

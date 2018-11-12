@@ -5,13 +5,13 @@ module.exports = {
   list(req, res) {
     return Classroom
       .findAll({
-        include: [{
-          model: Student,
-          as: 'students'
-        }],
+        // include: [{
+        //   model: Student,
+        //   as: 'students'
+        // }],
         order: [
           ['createdAt', 'DESC'],
-          [{ model: Student, as: 'students' }, 'createdAt', 'DESC'],
+          // [{ model: Student, as: 'students' }, 'createdAt', 'DESC'],
         ],
       })
       .then((classrooms) => res.status(200).send(classrooms))

@@ -5,12 +5,12 @@ module.exports = (sequelize, DataTypes) => {
     course_name: DataTypes.STRING
   }, {});
   Course.associate = function(models) {
-    Course.belongsToMany(models.Student, {
-      through: 'StudentCourse',
-      as: 'students',
-      foreignKey: 'course_id'
-    });
-    Course.belongsTo(models.Lecturer);
+    // Course.belongsToMany(models.Student, {
+    //   through: 'StudentCourse',
+    //   as: 'students',
+    //   foreignKey: 'course_id'
+    // });
+    // Course.belongsTo(models.Lecturer);
   };
   return Course;
 };
